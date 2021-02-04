@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.img-container,
+.user {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.user {
+  box-shadow: 10px 10px 0 0 #a9e1d5;
+}
+
+.img-container {
+  margin: -50px 0 0 -50px;
+  box-shadow: 20px 20px 0 5px #cef0e1;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.info .username {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.info .bio {
+  width: 200px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+a {
+  color: #6ecfae;
+}
+
+.info .link,
+.info .social,
+.info .bio {
+  margin-top: 7px;
+}
+
+.social .fab {
+  margin: 3px;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 100%;
+  color: white;
+}
+
+.fa-twitter,
+.fa-telegram {
+  background: #48b7e6;
+}
+
+.fa-youtube {
+  background: red;
+}
+
+.fa-facebook {
+  background: #1877f2;
+}
+
+.more-info,
+.btns {
+  margin-top: 15px;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.more-info .inner-info {
+  padding: 10px;
+}
+
+.more-info .info-main {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.inner-info .count {
+  font-weight: bold;
+}
+
+.btns {
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #eee;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+  width: 130px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.btn-primary {
+  background: #5fc58d;
+  box-shadow: 5px 5px 0 0 #cef0e1;
+}
+
+.btn-secondary {
+  background: #4eb5c5;
+  box-shadow: 5px 5px 0 0 #c0e6eb;
+}
