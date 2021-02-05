@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[![TODO App](https://i.postimg.cc/zvvyx2F4/image.png)](https://postimg.cc/sGFfXc8J)
+[![TODO App](https://i.postimg.cc/B6sYPHBj/rec-tab.gif)](https://postimg.cc/sB69tB8z)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Here, I created simple TODO App using React JS. You can see demo [here](https://xenodochial-babbage-44d5e8.netlify.app/). It is not responsive but works well one PC. It is made using Material UI. I know there are few mistakes as I am new to React JS.
 
