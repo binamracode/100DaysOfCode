@@ -34,3 +34,9 @@
   width: 1000px !important;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .table {
+    width: 100% !important;
+  }
+}

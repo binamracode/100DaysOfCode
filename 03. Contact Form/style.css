@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+/* Universal styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg-image {
+  background-image: url("https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 40px 9px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 40px 9px rgba(0, 0, 0, 0.4);
+}
+
+.head {
+  background: rgb(0, 132, 255);
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.head h1,
+p {
+  text-align: center;
+  color: white;
+}
+
+.head p {
+  font-size: 12px;
+}
+
+label {
+  margin-left: 20px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 5px 20px 20px 20px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 132, 255);
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  outline: none;
+  background: rgb(0, 132, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: rgb(0, 105, 204);
+}
+
+@media screen and (max-width: 417px) {
+  form {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
