@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+## Day 2 - TODO APP
 
 [![TODO App](https://i.postimg.cc/zvvyx2F4/image.png)](https://postimg.cc/sGFfXc8J)
 
