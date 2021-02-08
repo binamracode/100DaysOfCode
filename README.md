@@ -19,4 +19,4 @@ Here, I created simple and responsive Social Icons animation using HTML and CSS.
 
 ## Day 6 - Image Gallery
 [![Image Gallery](https://i.postimg.cc/NGCP58jH/image.png)](https://postimg.cc/yW9TGZ91)
-Here, I created simple Image Gallery using React JS. You can see demo [here](https://upbeat-mestorf-38fce0.netlify.app/). It is made using Material UI. I know there are few mistakes as I am new to React JS.
+Here, I created simple Image Gallery using React JS. You can see demo [here](https://upbeat-mestorf-38fce0.netlify.app/). It is made using Material UI. I know there are few mistakes as I am new to React JS. Few things are tweeked with CSS just to layout images and modal.
