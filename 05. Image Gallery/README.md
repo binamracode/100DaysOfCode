@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+## Day 5 - Image Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Image Gallery](https://i.postimg.cc/NGCP58jH/image.png)](https://postimg.cc/yW9TGZ91)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Here, I created simple Image Gallery using React JS. You can see demo [here](https://upbeat-mestorf-38fce0.netlify.app/). It is made using Material UI. I know there are few mistakes as I am new to React JS. Few things are tweeked with CSS just to layout images and modal. Feel free to provide me best way if you think it can be imporved.
+
 
 ## Available Scripts
 
