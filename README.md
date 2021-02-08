@@ -18,5 +18,5 @@ Here, I created simple and responsive contact form using HTML and CSS. It is ver
 Here, I created simple and responsive Social Icons animation using HTML and CSS. It is very simple demo of social icons created by me. It is like a profile social sections with simple hover animation. You can see in codepen [here](https://codepen.io/binamra/pen/bGBpxvR).
 
 ## Day 6 - Image Gallery
-[![TODO App](https://i.postimg.cc/zvvyx2F4/image.png)](https://postimg.cc/sGFfXc8J)
+[![Image Gallery](https://i.postimg.cc/NGCP58jH/image.png)](https://postimg.cc/yW9TGZ91)
 Here, I created simple Image Gallery using React JS. You can see demo [here](https://upbeat-mestorf-38fce0.netlify.app/). It is made using Material UI. I know there are few mistakes as I am new to React JS.
