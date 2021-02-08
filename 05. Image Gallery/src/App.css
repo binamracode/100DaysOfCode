@@ -1,0 +1,54 @@
+.image-modal {
+  display: none !important;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-modal.show {
+  display: block !important;
+}
+
+.upperPart {
+  position: absolute;
+  top: 0;
+}
+
+.middlePart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.middlePart img {
+  max-width: 50%;
+  text-align: center;
+}
+
+.backIcon {
+  left: 0;
+  position: absolute !important;
+}
+
+.forwardIcon {
+  right: 0;
+  position: absolute !important;
+}
+
+.lowerPart {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.lowerPart p {
+  color: white;
+}
