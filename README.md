@@ -20,3 +20,7 @@ Here, I created simple and responsive Social Icons animation using HTML and CSS.
 ## Day 5 - Image Gallery
 [![Image Gallery](https://i.postimg.cc/NGCP58jH/image.png)](https://postimg.cc/yW9TGZ91)
 Here, I created simple Image Gallery using React JS. You can see demo [here](https://upbeat-mestorf-38fce0.netlify.app/). It is made using Material UI. I know there are few mistakes as I am new to React JS. Few things are tweeked with CSS just to layout images and modal.
+
+## Day 6 - Responsive Login Form
+[![Responsive Login Form](https://i.postimg.cc/MGXJDcLN/image.png)](https://postimg.cc/t10cRgpN)
+Here, I took inspiration from [here](https://dribbble.com/shots/11589021-Sign-Up-Form). This is simple and responsive Login form which I tried to make using my techniques that I leared so far. It is made in HTML and Sass. You can see in codepen [here](https://codepen.io/binamra/full/qBqNGGq).
