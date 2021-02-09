@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #eb4c5f;
+}
+
+a {
+  text-decoration: none;
+  color: #eb4c5f;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+.container img {
+  width: 50%;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container label {
+  display: block;
+  color: #6357a2;
+}
+
+.container input {
+  padding: 15px 10px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #d5d5d5;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.container input[type="password"]::placeholder {
+  letter-spacing: 5px;
+}
+
+.container div {
+  margin-bottom: 15px;
+}
+
+.container .buttons {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .buttons .btn {
+  padding: 10px 50px;
+  border-radius: 10px;
+  width: 50%;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.container .buttons .btn.btn-primary {
+  background-color: #eb4c5f;
+  color: white;
+}
+
+.container .buttons .btn.btn-primary:hover {
+  background-color: #ec5567;
+}
+
+.container .buttons .btn.btn-secondary {
+  background-color: #fff;
+  color: #eb4c5f;
+}
+
+.container .buttons .btn.btn-secondary:hover {
+  background-color: #e6e6e6;
+}
+
+.container .policy {
+  display: flex;
+  align-items: center;
+  flex-flow: row-reverse;
+  justify-content: flex-start;
+}
+
+.container .policy input {
+  width: auto;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .container h2 {
+    text-align: center;
+  }
+  .container img {
+    width: 100%;
+  }
+  .container .buttons {
+    justify-content: center;
+  }
+  .container .policy {
+    justify-content: center;
+  }
+}

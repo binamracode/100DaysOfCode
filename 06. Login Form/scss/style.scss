@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$primary-color: #eb4c5f;
+$secondary-color: #fff;
+$tertiary-color: #6357a2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 50px rgba($color: #000, $alpha: 0.2);
+  padding: 50px;
+
+  img {
+    width: 50%;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    color: $tertiary-color;
+  }
+
+  input {
+    padding: 15px 10px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid darken($color: #eee, $amount: 10%);
+    background-color: #eee;
+    border-radius: 5px;
+
+    &[type="password"]::placeholder {
+      letter-spacing: 5px;
+    }
+  }
+
+  div {
+    margin-bottom: 15px;
+  }
+
+  .buttons {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .btn {
+      padding: 10px 50px;
+      border-radius: 10px;
+      width: 50%;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s;
+
+      &.btn-primary {
+        background-color: $primary-color;
+        color: white;
+
+        &:hover {
+          background-color: lighten($color: $primary-color, $amount: 2%);
+        }
+      }
+
+      &.btn-secondary {
+        background-color: $secondary-color;
+        color: $primary-color;
+
+        &:hover {
+          background-color: darken($color: $secondary-color, $amount: 10%);
+        }
+      }
+    }
+  }
+
+  .policy {
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+
+    input {
+      width: auto;
+      margin: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .buttons {
+      justify-content: center;
+    }
+
+    .policy {
+      justify-content: center;
+    }
+  }
+}
