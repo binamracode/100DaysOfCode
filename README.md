@@ -24,3 +24,7 @@ Here, I created simple Image Gallery using React JS. You can see demo [here](htt
 ## Day 6 - Responsive Login Form
 [![Responsive Login Form](https://i.postimg.cc/MGXJDcLN/image.png)](https://postimg.cc/t10cRgpN)
 Here, I took inspiration from [here](https://dribbble.com/shots/11589021-Sign-Up-Form). This is simple and responsive Login form which I tried to make using my techniques that I leared so far. It is made in HTML and Sass. You can see in codepen [here](https://codepen.io/binamra/full/qBqNGGq).
+
+## Day 7 - YouTube Video Card
+[![YouTube Video Card](https://i.postimg.cc/L4ZJyF7C/image.png)](https://postimg.cc/hhc4j6KT)
+This is super simple YouTube Video Card. I know this is not fully responsive and its not good as the original card of YouTube but I tried my best to replicate youtube video card as much as I can with all my basic knowledge. Feel free to give me suggestions. It is made in HTML and Sass. You can see in codepen [here](https://codepen.io/binamra/pen/YzpGjLa)
