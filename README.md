@@ -28,3 +28,7 @@ Here, I took inspiration from [here](https://dribbble.com/shots/11589021-Sign-Up
 ## Day 7 - YouTube Video Card
 [![YouTube Video Card](https://i.postimg.cc/L4ZJyF7C/image.png)](https://postimg.cc/hhc4j6KT)
 This is super simple YouTube Video Card. I know this is not fully responsive and its not good as the original card of YouTube but I tried my best to replicate youtube video card as much as I can with all my basic knowledge. Feel free to give me suggestions. It is made in HTML and Sass. You can see in codepen [here](https://codepen.io/binamra/pen/YzpGjLa)
+
+## Day 8 - Twitter Tweet Card
+[![Twitter Tweet](https://i.postimg.cc/Hn1fc1r1/image.png)](https://postimg.cc/dknWpXR5)
+This is super simple Twitter Tweet Card. I know this is not fully responsive and its not good as the original card of Twitter but I tried my best to replicate twitter tweet card as much as I can with all my basic knowledge. Feel free to give me suggestions. It is made in HTML and Sass. You can see in codepen [here](https://codepen.io/binamra/pen/XWNNMyZ)
