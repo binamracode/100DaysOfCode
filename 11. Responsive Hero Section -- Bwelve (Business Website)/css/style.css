@@ -236,6 +236,7 @@ section {
 
   .hero-section img {
     width: 100%;
+    object-fit: contain;
   }
 
   .hero-section p {
