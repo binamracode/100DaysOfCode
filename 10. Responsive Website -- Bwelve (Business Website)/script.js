@@ -1,9 +1,6 @@
-document.querySelector("#icon").addEventListener("click", () => {
-  document.querySelector("#lol").classList.add("show");
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+  const bar = document.querySelector(".fas");
+  bar.classList.toggle("fa-bars");
+  bar.classList.toggle("fa-times");
+  document.querySelector("nav ul").classList.toggle("active");
 });
-
-window.onclick = function (event) {
-  if (!event.target.classList.contains("fas")) {
-    document.querySelector("#lol").classList.remove("show");
-  }
-};

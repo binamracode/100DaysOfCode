@@ -24,8 +24,10 @@ header {
 header nav {
   z-index: 3;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  height: 5rem;
 }
 
 nav img {
@@ -90,13 +92,13 @@ nav .nav-link:hover::before {
   transition: all 0.3s ease-in-out;
 }
 
-.fas.fa-bars {
+.menu-toggle {
   display: none;
 }
 
-@media (max-width: 858px) {
-  nav {
-    flex-direction: column;
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
   }
 
   .top {
@@ -104,47 +106,31 @@ nav .nav-link:hover::before {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 1rem;
   }
 
-  .fas.fa-bars {
-    display: block;
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
   }
 
   nav ul {
     display: none;
-    animation: 0.8s slide;
-    transform-origin: 0 0;
-    background: #eee;
-    position: fixed;
-    height: 100vh;
-    top: 0;
     width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: white;
+    z-index: 11;
   }
 
-  .show {
+  nav ul.active {
     display: flex;
-  }
-
-  @keyframes slide {
-    0% {
-      transform: translateX(-100%);
-    }
-
-    100% {
-      transform: translateX(0%);
-    }
-
-    0% {
-      transform: translateX(-100%);
-    }
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   nav ul li {
     padding: 2rem;
-    font-size: 2rem;
   }
 }
