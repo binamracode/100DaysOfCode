@@ -33,7 +33,10 @@ This is super simple YouTube Video Card. I know this is not fully responsive and
 [![Twitter Tweet](https://i.postimg.cc/Hn1fc1r1/image.png)](https://postimg.cc/dknWpXR5)
 This is super simple Twitter Tweet Card. I know this is not fully responsive and its not good as the original card of Twitter but I tried my best to replicate twitter tweet card as much as I can with all my basic knowledge. Feel free to give me suggestions. It is made in HTML and Sass. You can see in codepen [here](https://codepen.io/binamra/pen/XWNNMyZ)
 
-## Day 0 - Context Menu
+## Day 9 - Context Menu
 [![Context Menu](https://i.postimg.cc/cHQJ8VQG/image.png)](https://postimg.cc/jwSTp3gM)
 This is simple Context Menu made with the help of HTML, CSS and JS. You can freely use it and customize as you want. Feel free to provide me suggestions if you have. I am waiting for your opinion. You can see in codepen [here](https://codepen.io/binamra/pen/zYoogQR)
 
+## Day 10 - Responsive NavBar
+[![Responsive NavBar](https://i.postimg.cc/rmDY2Ssf/image.png)](https://postimg.cc/zb1knHnh)
+This is simple and Responsive NavBar created using HTML, CSS and JS. It is not that much animated but I tried my best to design it as much as I can. Feel free to provide me suggestions if you want. You can see in codepen [here](https://codepen.io/binamra/full/xxRgaKR)
