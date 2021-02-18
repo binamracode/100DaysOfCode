@@ -50,7 +50,7 @@ This is simple and Responsive Hero Section created using HTML and CSS. I tried m
 This is simple and Responsive Services Section created Using HTML and CSS> I tried my best to design as much as I can. Feel free to provide me any solutions if you have. You can see in codepen [here](https://codepen.io/binamra/full/wvoJeyp)
 
 ## Day 13 - Responsive Call To Action Section
-[![Responsive Call To Action Section](https://i.postimg.cc/G200nq9n/image.png)](https://postimg.cc/Y4xD1N1d)
+[![image.png](https://i.postimg.cc/5tQZHh17/image.png)](https://postimg.cc/HJHSRPrX)
 This is simple and Responsive Call To Action Section created using HTML and CSS. I tried my best to design as much as I can. I also changed few things of website for improvements like increasing spacing and so on. Feel free to provide me any solutions if you have. You can see in codepen [here](https://codepen.io/binamra/full/ExNWqVj)
 
 ## Day 14 - Responsive Testimonial Section
@@ -58,5 +58,5 @@ This is simple and Responsive Call To Action Section created using HTML and CSS.
 This is simple and Responsive Testimonial Section created using HTML and CSS. I tried my best to design as much as I can. eel free to provide me any solutions if you have. You can see in codepen [here](https://codepen.io/binamra/full/ExNmdQb)
 
 ## Day 15 - Scroll To Top
-[![Scroll To Top](https://i.postimg.cc/hvZJ5zwt/image.png)](https://postimg.cc/7J7YC6wF)
+[![Scroll To Top](https://i.postimg.cc/5tQZHh17/image.png)](https://postimg.cc/HJHSRPrX)
 This is super simple and Responsive Scroll To Top created using HTML, CSS and JS. I used `scroll-behaviour: smooth` and added `#` in link of `<a>` tag to do this. Its super simple. I just used JS to hide scroll to top dynamically. You can see in codepen [here](https://codepen.io/binamra/full/yLVXoEW)
