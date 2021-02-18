@@ -56,3 +56,7 @@ This is simple and Responsive Call To Action Section created using HTML and CSS.
 ## Day 14 - Responsive Testimonial Section
 [![Responsive Testimonial Section](https://i.postimg.cc/3wdw1pV3/image.png)](https://postimg.cc/QBZsxBjz)
 This is simple and Responsive Testimonial Section created using HTML and CSS. I tried my best to design as much as I can. eel free to provide me any solutions if you have. You can see in codepen [here](https://codepen.io/binamra/full/ExNmdQb)
+
+## Day 15 - Scroll To Top
+[![Scroll To Top](https://i.postimg.cc/hvZJ5zwt/image.png)](https://postimg.cc/7J7YC6wF)
+This is super simple and Responsive Scroll To Top created using HTML, CSS and JS. I used `scroll-behaviour: smooth` and added `#` in link of `<a>` tag to do this. Its super simple. I just used JS to hide scroll to top dynamically. You can see in codepen [here](https://codepen.io/binamra/full/yLVXoEW)
