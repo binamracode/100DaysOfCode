@@ -1,0 +1,145 @@
+:root {
+  --primary-color: #ff6663;
+  --secondary-color: #00272b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: #444;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+
+section div {
+  width: 50%;
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+.hero-section p {
+  margin: 2rem 0;
+}
+
+.hero-section img {
+  width: 100%;
+}
+
+.btn-groups {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: block;
+  border-radius: 40px;
+  color: #fff;
+  transition: 0.4s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .section-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services .card {
+  width: 25%;
+  margin: 20px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.services .card:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-20px);
+}
+
+@media screen and (max-width: 850px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section div {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .btn-groups {
+    flex-direction: column;
+  }
+
+  .services .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services .card {
+    width: 100%;
+  }
+}
