@@ -68,3 +68,7 @@ This is super simple and responsive FAQ section created using HTML and CSS. I ma
 ## Day 17 - Simple HTML Page
 [![Simple HTML Page](https://i.postimg.cc/MT8zbTTF/image.png)](https://postimg.cc/FfDthh0y)
 This is super simple and responsive HTML Page. It is created using HTML and CSS. This is just for practice. I have not created good website but I tried my best to create it in short tiem as possible. You can see in codepen [here](https://codepen.io/binamra/pen/qBqXXVE)
+
+## Day 18 - Simple Post Cards
+[![Simple Post Cards](https://i.postimg.cc/k55BH943/image.png)](https://postimg.cc/21Pkqsh2)
+This is super simple Post Cards. I know it is not good because I did not have much time to create it and I created it in hurry. Its just for my practice. I will create proper site tomorrow. You can see in codepen [here](https://codepen.io/binamra/full/qBqPEje)
