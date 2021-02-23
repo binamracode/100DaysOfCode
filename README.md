@@ -76,3 +76,7 @@ This is super simple Post Cards. I know it is not good because I did not have mu
 ## Day 19 - Simple Website
 [![Simple Website](https://i.postimg.cc/PxVZBkWt/image.png)](https://postimg.cc/dkdLypNX)
 This is super simple website with left fixed sidebar and with posts. It is not fully responsive but I tried to create as soon as possible. Feel free to help me to make it responsive. You can see in codepen [here](https://codepen.io/binamra/full/eYBGLgK)
+
+## Day 20 - Responsive Product Section
+[![Responsive Product Section](https://i.postimg.cc/7Y19QpmC/image.png)](https://postimg.cc/8j5L7n8D)
+This is super simple and responsive product section created with HTML and CSS. I tried it as my practice and did not add much animations. Feel free to help me to improve it more. You can see in codepen [here](https://codepen.io/binamra/full/WNoXEyE)
