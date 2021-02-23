@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 100px 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.product-info {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.brand {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.product-name {
+  font-size: 30px;
+}
+
+.review {
+  color: gold;
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.review small {
+  color: black;
+}
+
+.desc {
+  margin: 20px 0;
+}
+
+.size {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.size select {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  background: #ff0036;
+  color: white;
+  border-radius: 5px;
+}
+
+.main-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: white;
+  background: #ff0036;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background: #960020;
+}
+
+@media screen and (max-width: 768px) {
+  .container section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-info {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
