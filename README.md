@@ -85,5 +85,9 @@ This is super simple and responsive product section created with HTML and CSS. I
 [![Sign In Section](https://i.postimg.cc/L6JH55TZ/image.png)](https://postimg.cc/w7dKb6n6)
 This is super simple Sign in Form made with HTML and CSS. I tried it as my practice and did not add much beautiful looks. Feel free to help me to improve it. It is responsive too. You can see in codepen [here](https://codepen.io/binamra/full/abBENWe)
 
-## Day 22, 23, 24 - ePaste
+## Day 22, 23, 24 - ePaste | Simple website to save your texts (Django Project)
 This is made by me in 3 days. It is my 3 days project. It is simple project made with Django and Python with authentication, dasbhoard, backend and feature for putting your texts with links with password protected. Feel free to provide me suggestions for this.
+
+## Day 25, 26 - Random Password Generator (Django Project)
+[![Random Password Generator (Django Project)](https://i.postimg.cc/VLP8snWG/image.png)](https://postimg.cc/dD6X47Xr)
+This is simple website made in 2 days. It is made in Django and Python. It has just feature to generate automatic password easily. I know I can easily make it in javascript but I tested this with backend but this should not be operated from backend. This must be client side project. I will create its client version soon.
