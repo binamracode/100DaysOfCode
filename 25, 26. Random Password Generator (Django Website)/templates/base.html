@@ -1,0 +1,324 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Adro - Digital Marketing HTML Template | Homepage Business</title>
+        <!-- Stylesheets -->
+        <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+        <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+
+        <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+        <link rel="icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+        <!-- Responsive -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="{% static 'js/respond.js' %}"></script><![endif]-->
+    </head>
+    <body>
+        <div class="page-wrapper">
+        <header class="main-header">
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="outer-container">
+                    <div class="clearfix">
+                        <div class="pull-left logo-box">
+                            <div class="logo"><a href="{% url 'generate:index' %}"><img src="{% static 'images/logo.png' %}" alt="" title=""></a></div>
+                        </div>
+
+                        <div class="nav-outer clearfix">
+
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-md">
+                                <div class="navbar-header">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="{% url 'generate:index' %}" style="text-decoration: none;">Home</a></li>
+                                        <li><a href="contact.html" style="text-decoration: none;">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Upper-->
+        </header>
+        <section class="banner-section" style="background-image:url({% static 'images/background/1.png' %})">
+            <div class="auto-container">
+                <div class="content">
+                    <h2>Create Your Own Super Strong Password</h2>
+                    <div class="text">We care about your privacy and help you to create your own super strong password for your better security surfing over the web and social media.</div>
+                    <div class="btns-box clearfixr">
+                        <a href="#generate" class="theme-btn btn-style-one">Get Started</a>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <figure class="image paroller" style="transform: unset; transition: transform 0s linear 0s; will-change: transform;">
+                        <img src="{% static 'images/resource/user.png' %}" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+            <main class="container">
+                {% block content  %}
+            {% endblock %}
+            </main>
+            <div class="large-container mt-3">
+                <div class="row">
+                    <!-- Content Column -->
+                    <div class="content-column order-2 col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner-column">
+                            <div class="sec-title">
+                                <span class="title">Our Work</span>
+                                <h2>We care about your privacy and your secrecy over passwords and your sensitive information</h2>
+                                <div class="text">We help you to create super strong password easily with lots of choices for you. We have lots of options to choose to make your passwords more secure and surf the internet without any problem and hesistation. We do not leak or track  you for the password. You can create/generate password easily without privacy issue.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Column -->
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner-column clearfix">
+                            <figure class="image-1"><img src="{% static 'images/resource/image-3.jpg' %}" alt=""></figure>
+                            <figure class="image-2 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"><img src="images/resource/image-2.jpg" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <section class="projects-section">
+		<div class="large-container">
+			<div class="projects-tabs tabs-box">
+				<div class="row">
+					<!-- Content Column -->
+					<div class="content-column col-xl-5 col-lg-6 col-md-12">
+						<div class="inner-column">
+							<div class="sec-title styled"><h2>We have done lot of <br> Research</h2></div>
+							<div class="text">We know that each and every person over the internet are searching to get strong password just in one click. So, we created this website just to serve you and help you to create your password easily. Here are the few reasons of creating this website: </div>
+							<ul class="list-style-two">
+								<li>Increase in Hacking</li>
+								<li>Searching for secured password</li>
+								<li>Use of Common passwords by users over the internet</li>
+								<li>Security becoming the main topic in internet</li>
+								<li>Lossing of data by users due to insecure passwords</li>
+							</ul>
+							<div class="message-box">
+								<div class="message">More than 2k Passwords <br> were created</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Projects -->
+					<div class="projects-column col-xl-5 col-lg-6 col-md-12">
+						<div class="inner-column">
+							<!--Tabs Container-->
+	                		<div class="tabs-content">
+			                    <!--Tab / Active Tab-->
+			                    <div class="tab active-tab" id="tab-1">
+			                        <div class="content image wow fadeInLeft animated">
+						            	<div class="row">
+						            		<!-- Project Block -->
+						                    <div class="project-block masonry-item width-40">
+						                        <div class="inner-box">
+						                            <div class="image-box">
+						                            	<figure class="image"><img src="{% static 'images/gallery/1.jpg' %}" alt=""></figure>
+						                            	<div class="icon-box"><a class="icon"><i class="fa fa-arrow-right"></i></a></div>
+						                            </div>
+						                        </div>
+						                    </div>
+
+						                    <!-- Project Block -->
+						                    <div class="project-block masonry-item width-60">
+						                        <div class="inner-box">
+						                            <div class="image-box">
+						                            	<figure class="image"><img src="{% static 'images/gallery/2.jpg' %}" alt=""></figure>
+						                            	<div class="icon-box"><a class="icon"><i class="fa fa-arrow-right"></i></a></div>
+						                            </div>
+						                        </div>
+						                    </div>
+
+						                    <!-- Project Block -->
+						                    <div class="project-block masonry-item width-60">
+						                        <div class="inner-box">
+						                            <div class="image-box">
+						                            	<figure class="image"><img src="{% static 'images/gallery/3.jpg' %}" alt=""></figure>
+						                            	<div class="icon-box"><a class="icon"><i class="fa fa-arrow-right"></i></a></div>
+						                            </div>
+						                        </div>
+						                    </div>
+
+						                    <!-- Project Block -->
+						                    <div class="project-block masonry-item width-40">
+						                        <div class="inner-box">
+						                            <div class="image-box">
+						                            	<figure class="image"><img src="images/gallery/4.jpg" alt=""></figure>
+						                            	<div class="icon-box"><a class="icon"><i class="fa fa-arrow-right"></i></a></div>
+						                            </div>
+						                        </div>
+						                    </div>
+						            	</div>
+							        </div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+        </div>
+        <footer class="main-footer" style="background-image: url({% static 'images/background/2.jpg' %});">
+        <div class="large-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row">
+                    <!--Big Column-->
+                    <div class="big-column col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget about-widget">
+                                    <div class="footer-logo">
+                                        <figure class="image"><a href="index.html"><img src="images/logo-2.png" alt=""></a></figure>
+                                    </div>
+                                    <div class="widget-content">
+                                    	<!-- Language -->
+			                            <div class="language dropdownn">Language :<a class="dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">English (UK)<span class="icon fa fa-caret-down"></span></a>
+			                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+			                                    <li><a href="#">English (UK)</a></li>
+			                                    <li><a href="#">English (US)</a></li>
+			                                    <li><a href="#">Chinese</a></li>
+			                                    <li><a href="#">German</a></li>
+			                                    <li><a href="#">French</a></li>
+			                                </ul>
+			                            </div>
+                                        <ul class="social-links">
+                                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Core Link</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="#">Team Member</a></li>
+                                            <li><a href="#">Pricing plan</a></li>
+                                            <li><a href="#">Google Map</a></li>
+                                            <li><a href="#">Apps store</a></li>
+                                            <li><a href="#">About Company</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Big Column-->
+                    <div class="big-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+                            <div class="footer-column col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                <div class="footer-widget contact-widget">
+                                    <h2 class="widget-title">Information</h2>
+                                    <div class="widget-content">
+                                        <ul class="contact-list">
+                                        	<li>113 momo Street, bd 721 <br>NY 20012</li>
+                                        	<li><a href="#">Adrohelp@gmail.com</a></li>
+                                        	<li class="number">+88 (0) 29292162</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-xl-5 col-lg-4 col-md-6 col-sm-12">
+                            	<div class="footer-widget newsletter-widget">
+                                    <h2 class="widget-title">Stay In  Loop</h2>
+                                    <div class="widget-content">
+                                    	<div class="text">Subscribe to receive biweekly tips on creative automation and digital advertising!</div>
+                                    	<div class="newsletter-form">
+	                                        <form method="post" action="contact.html">
+	                                            <div class="form-group">
+	                                                <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
+	                                                <button type="submit" class="theme-btn"><i class="fa fa-caret-right"></i></button>
+	                                            </div>
+	                                        </form>
+	                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                <div class="footer-widget contact-widget">
+                                    <h2 class="widget-title">About Company</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="#">How it works</a></li>
+                                            <li><a href="#">Development</a></li>
+                                            <li><a href="#">Digital markeing</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Security</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="large-container clearfix">
+                <div class="footer-links">
+                	<ul>
+                		<li><a href="#">CAREERS</a></li>
+                		<li><a href="contact.html">Contact</a></li>
+                		<li><a href="#">PRIVACY</a></li>
+                	</ul>
+                </div>
+
+                <div class="app-btns">
+                	<a href="#" class="app-btn"><span class="fab fa-apple"></span> App Store</a>
+                	<a href="#" class="app-btn"><span class="fab fa-google-play"></span> Play Store</a>
+                </div>
+
+                <div class="copyright-text">© 2019 All rights reserved</div>
+            </div>
+        </div>
+    </footer>
+        <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/jquery-ui.js' %}"></script>
+        <script src="{% static 'js/jquery.paroller.min.js' %}"></script>
+        <script src="{% static 'js/jquery.fancybox.js' %}"></script>
+        <script src="{% static 'js/appear.js' %}"></script>
+        <script src="{% static 'js/owl.js' %}"></script>
+        <script src="{% static 'js/wow.js' %}"></script>
+        <script src="{% static 'js/isotope.js' %}"></script>
+        <script src="{% static 'js/validate.js' %}"></script>
+        <script src="{% static 'js/script.js' %}"></script>
+    </body>
+</html>

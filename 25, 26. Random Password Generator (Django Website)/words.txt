@@ -1,0 +1,16 @@
+strong
+fail
+pass
+happy
+sad
+bad
+rat
+cut
+verb
+sample
+bat
+cat
+dog
+animal
+human
+fan
