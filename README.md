@@ -100,3 +100,7 @@ This is simple clickable image gallery created with HTML, CSS and JavaScript. I 
 ## Day 28 - Clickable Image Gallery (With Buttons)
 [![Clickable Image Gallery (With Buttons)](https://i.postimg.cc/YCRRMjJs/image.png)](https://postimg.cc/bZGkRYYx)
 This is like fork of my previous project. I improved previous project by adding forward and backward button. I know its simple but this is one key part to have on this project. You can see in codepen [here](https://codepen.io/binamra/full/wvoEowE)
+
+## Day 29, 30 - Simple Blog Site (With Buttons)
+[![Clickable Image Gallery (With Buttons)](https://i.postimg.cc/C1RHY7gv/image.png)](https://postimg.cc/47ThQznt)
+This is one of my project which took me long time to create. I used one dribbble design to implement this. This is not with high graphics and animations but I tried to make it look like the one in dribbble. You can see in codepen [here](https://codepen.io/binamra/full/XWNpNjq)
