@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrystalStocks</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body id="root">
+    <nav class="desktop-nav" id="nav-desktop">
+      <div class="nav-left">
+        <p>CrystalStocks</p>
+      </div>
+      <div class="nav-center">
+        <form action="">
+          <input type="text" placeholder="Search" name="search" />
+          <button class="search-icon" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="nav-right">
+        <div class="avatar"></div>
+        <p class="nav-person-info">Thomas St</p>
+        <div class="dropdown">
+          <i
+            class="fas fa-chevron-down nav-drop dropbtn"
+            onclick="openDropdown('user-info-drop')"
+          ></i>
+          <div id="user-info-drop" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <i class="fas fa-bell notification"></i>
+      </div>
+    </nav>
+
+    <!-- Mobile NavBar -->
+    <nav class="show-in-mobile">
+      <div class="mobile-nav" id="nav-mobile">
+        <div class="mobile-nav-item">
+          <i class="fas fa-home aside-icon fa-2x"></i>
+          <p>Discover</p>
+        </div>
+        <div class="mobile-nav-item">
+          <i class="fas fa-fire aside-icon fa-2x"></i>
+          <p>Trending</p>
+        </div>
+        <div class="mobile-nav-item">
+          <i class="fas fa-users aside-icon fa-2x"></i>
+          <p>Subscriptions</p>
+        </div>
+        <div class="mobile-nav-item">
+          <i class="fas fa-th-large aside-icon fa-2x"></i>
+          <p>More</p>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <aside id="sidebar">
+        <p class="title hide-in-900">Menu</p>
+        <ul>
+          <li class="active">
+            <a href="#">
+              <i class="fas fa-home aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Discover</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-fire aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Trending</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-laugh-squint aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Memes</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-lightbulb aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Facts</p>
+            </a>
+          </li>
+        </ul>
+
+        <div class="aside-separator"></div>
+        <p class="title hide-in-900">Category</p>
+
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fas fa-laugh aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Entertainment</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-plane aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Travel</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-desktop aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Programming</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fas fa-mobile aside-icon hide-in-1200"></i>
+              <p class="aside-icon-content hide-in-900">Mobile & Gadgets</p>
+            </a>
+          </li>
+        </ul>
+
+        <div class="aside-separator"></div>
+        <div class="theme-mode">
+          <select name="select_theme" id="theme__select">
+            <option value="auto">Auto</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+        <div id="aside-empty"></div>
+      </aside>
+      <div class="container">
+        <div class="content">
+          <p class="page-title">Discover</p>
+          <section class="top-posts">
+            <div class="top-post top-post-1">
+              <p class="top-post-title prevent-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Mollitia, cupiditate magni amet atque ex quis natus delectus
+                dolore. Error, mollitia?
+              </p>
+              <div class="top-post-details">
+                <div class="top-post-avatar"></div>
+                <div class="top-post-author-details">
+                  <p class="top-post-author prevent-light">Thomas Zane</p>
+                  <p class="prevent-light">53k views - 2 weeks ago</p>
+                </div>
+              </div>
+              <p class="time-pill pill-top-post-block prevent-light">20 min</p>
+            </div>
+            <div class="top-post top-post-2">
+              <p class="top-post-title prevent-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                nemo dolorum tempore ratione quae facilis perspiciatis nesciunt
+                fugit cupiditate explicabo.
+              </p>
+              <div class="top-post-details">
+                <div class="top-post-avatar"></div>
+                <div class="top-post-author-details">
+                  <p class="top-post-author prevent-light">Thomas Zane</p>
+                  <p class="prevent-light">53k views - 2 weeks ago</p>
+                </div>
+              </div>
+              <p class="time-pill pill-top-post-block prevent-light">20 min</p>
+            </div>
+          </section>
+
+          <section>
+            <p class="post-section-title">Recommendations</p>
+            <div class="post-section">
+              <div class="post-block">
+                <p class="time-pill pill-post-block prevent-light">20 min</p>
+                <div class="post-block-details">
+                  <div class="post-block-avatar"></div>
+                  <p class="author">Andy Wilson</p>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Corrupti, nulla!
+                  </p>
+                  <p class="extra-info">53K views - 3 weeks ago</p>
+                </div>
+              </div>
+              <div class="post-block">
+                <p class="time-pill pill-post-block prevent-light">19 min</p>
+                <div class="post-block-details">
+                  <div class="post-block-avatar"></div>
+                  <p class="author">Andy Wilson</p>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Corrupti, nulla!
+                  </p>
+                  <p class="extra-info">53K views - 3 weeks ago</p>
+                </div>
+              </div>
+              <div class="post-block">
+                <p class="time-pill pill-post-block prevent-light">60 min</p>
+                <div class="post-block-details">
+                  <div class="post-block-avatar"></div>
+                  <p class="author">Andy Wilson</p>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Corrupti, nulla!
+                  </p>
+                  <p class="extra-info">53K views - 3 weeks ago</p>
+                </div>
+              </div>
+              <div class="post-block">
+                <p class="time-pill pill-post-block prevent-light">100 min</p>
+                <div class="post-block-details">
+                  <div class="post-block-avatar"></div>
+                  <p class="author">Andy Wilson</p>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Corrupti, nulla!
+                  </p>
+                  <p class="extra-info">53K views - 3 weeks ago</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="js/script.js"></script>
+</html>
