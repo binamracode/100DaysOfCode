@@ -92,3 +92,11 @@ This is made by me in 3 days. It is my 3 days project. It is simple project made
 ## Day 25, 26 - Random Password Generator (Django Project)
 [![Random Password Generator (Django Project)](https://i.postimg.cc/VLP8snWG/image.png)](https://postimg.cc/dD6X47Xr)
 This is simple website made in 2 days. It is made in Django and Python. It has just feature to generate automatic password easily. I know I can easily make it in javascript but I tested this with backend but this should not be operated from backend. This must be client side project. I will create its client version soon.
+
+## Day 27 - Clickable Image Gallery
+[![Clickable Image Gallery](https://i.postimg.cc/65050XsX/image.png)](https://postimg.cc/gnxWz1kS)
+This is simple clickable image gallery created with HTML, CSS and JavaScript. I used some ES6 javascript syntax to create it. This is generally suitable in places like in product page to show the products. I have not added any animation here but I tried to make it simple and minimal. Feel free to provide me suggestions. You can see in codepen [here](https://codepen.io/binamra/full/wvoEzVE)
+
+## Day 28 - Clickable Image Gallery (With Buttons)
+[![Clickable Image Gallery (With Buttons)](https://i.postimg.cc/YCRRMjJs/image.png)](https://postimg.cc/bZGkRYYx)
+This is like fork of my previous project. I improved previous project by adding forward and backward button. I know its simple but this is one key part to have on this project. You can see in codepen [here](https://codepen.io/binamra/full/wvoEowE)
