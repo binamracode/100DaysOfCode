@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+  --dark-primary-color: #1f1d2b;
+  --dark-secondary-color: #252837;
+  --dark-text-color: rgb(240, 240, 240);
+  --dark-text-color-shady: #ababab;
+
+  --light-primary-color: #fff;
+  --light-secondary-color: rgb(248, 248, 248);
+  --light-text-color: rgb(49, 49, 49);
+  --light-text-color-shady: #353340;
+
+  --primary-color: var(--dark-primary-color);
+  --secondary-color: var(--dark-secondary-color);
+  --text-color: var(--dark-text-color);
+  --text-color-shady: var(--dark-text-color-shady);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+main .content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+.page-title {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.time-pill {
+  color: var(--light-primary-color);
+  background: rgba(0, 0, 0, 0.4);
+  width: 7ch;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.post-section-title {
+  color: var(--text-color);
+  font-size: 25px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+/* For Light Mode */
+body.theme-light {
+  --primary-color: var(--light-primary-color);
+  --secondary-color: var(--light-secondary-color);
+  --text-color: var(--light-text-color);
+  --text-color-shady: var(--light-text-color-shady);
+}
+
+@media (prefers-color-scheme: dark) {
+  body.theme-auto {
+    --primary-color: var(--dark-primary-color);
+    --secondary-color: var(--dark-secondary-color);
+    --text-color: var(--dark-text-color);
+    --text-color-shady: var(--dark-text-color-shady);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body.theme-auto {
+    --primary-color: var(--light-primary-color);
+    --secondary-color: var(--light-secondary-color);
+    --text-color: var(--light-text-color);
+    --text-color-shady: var(--light-text-color-shady);
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 901px) {
+  .hide-in-1200 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  .hide-in-900 {
+    display: none;
+  }
+
+  .container {
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-in-900 {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .show-in-mobile {
+    display: initial;
+  }
+}
