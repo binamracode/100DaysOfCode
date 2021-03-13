@@ -108,3 +108,11 @@ This is one of my project which took me long time to create. I used one dribbble
 ## 31, 32, 33 Previous Blog Site React JS Version
 [![Previous Blog Site React JS Version](https://i.postimg.cc/BbFyFQ1n/image.png)](https://postimg.cc/7Jxm84VF)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Here, I converted my previous blog site to React JS one using Material UI. You can see demo [here](https://distracted-bardeen-89fdc6.netlify.app/). There maybe few bugs too but I tried to make it fast so bug may happen.
+
+## 34, 35, 36 Simple Blog Site With Node JS
+[![image.png](https://i.postimg.cc/8zBDt0V0/image.png)](https://postimg.cc/sMXt2KxY)
+This is made in Mongo DB, Express, EJS and Node JS. This is very simple blog site made with the help of bootstrap. Its not that much complex and also it does not have any complex designs. It is just for demo of blog.
+
+## 37, 38 Simple URL Shortener
+![Simple URL Shortener](https://user-images.githubusercontent.com/61900781/111019539-f66db100-83e7-11eb-9587-36eea2f584d1.png)
+This is made in Mongo DB, Express, EJS and Node JS. This is very simple URL Shrinker or Shortener site made with the help of bootstrap. Its not that much complex and also it does not have any complex designs. It is just for URL Shortener of blog.
