@@ -2,7 +2,7 @@
 
 [![TODO App](https://i.postimg.cc/zvvyx2F4/image.png)](https://postimg.cc/sGFfXc8J)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Here, I created simple TODO App using React JS. You can see demo [here](https://xenodochial-babbage-44d5e8.netlify.app/). It is not responsive but works well one PC. It is made using Material UI. I know there are few mistakes as I am new to React JS. Feel free to provide me best way if you think it can be imporved.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Here, I created simple TODO App using React JS. You can see demo [here](https://nostalgic-dijkstra-f350e4.netlify.app/). It is not responsive but works well one PC. It is made using Material UI. I know there are few mistakes as I am new to React JS. Feel free to provide me best way if you think it can be imporved.
 
 
 ## Available Scripts
