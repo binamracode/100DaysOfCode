@@ -1,82 +1,88 @@
+import { Button, ButtonGroup, TextField } from "@material-ui/core";
+import { useEffect, useState } from "react";
+import TodoTable from "./components/TodoTable";
 import "./App.css";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableContainer from "@material-ui/core/TableContainer";
-import TableHead from "@material-ui/core/TableHead";
-import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
-import { useState } from "react";
-import { ButtonGroup, TextField } from "@material-ui/core";
 
 function App() {
-  const [todo, setTodo] = useState([]);
-  const [todoToAdd, setTodoToAdd] = useState("");
+  const [todo, setTodo] = useState(() =>
+    localStorage.getItem("todo") ? JSON.parse(localStorage.getItem("todo")) : []
+  );
 
-  const handleDelete = (index) => {
-    setTodo(todo.filter((_, item_index) => item_index !== index));
+  const [valueError, setError] = useState({ status: false, helperText: "" });
+
+  const [value, setValue] = useState("");
+
+  useEffect(() => {
+    localStorage.setItem("todo", JSON.stringify(todo));
+  }, [todo]);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    setError({ status: false, helperText: "" });
+
+    if (value.length < 3)
+      return setError({
+        status: true,
+        helperText: "Work Text must be greater then 3",
+      });
+
+    setTodo([
+      {
+        title: value,
+        id: Date.now().toString(),
+        completed: false,
+      },
+      ...todo,
+    ]);
+
+    setValue("");
   };
 
-  const handleAddTodo = (e) => {
-    e.preventDefault();
-    setTodo([...todo, todoToAdd]);
+  const markAsCompleted = (id) => {
+    const updatedTodo = todo.map((t) => {
+      if (t.id === id) t.completed = true;
+
+      return t;
+    });
+
+    setTodo(updatedTodo);
+  };
+
+  const deleteTodo = (id) => {
+    const updatedTodo = todo.filter((t) => t.id !== id);
+
+    setTodo(updatedTodo);
   };
 
   return (
-    <div className='App'>
-      <h1 className='title'>Simple TODO App</h1>
-      <form onSubmit={handleAddTodo}>
-        <ButtonGroup
-          size='large'
-          color='primary'
-          aria-label='large outlined primary button group'>
-          <TextField
-            className='todo_field'
-            label='Enter your Todo'
-            onChange={(event) => setTodoToAdd(event.target.value)}
-          />
-          <Button
-            variant='contained'
-            color='primary'
-            type='submit'
-            className='add_todo_btn'
-            onClick={handleAddTodo}>
-            Add
-          </Button>
-        </ButtonGroup>
+    <div>
+      <h1>Simple TODO App</h1>
+      <form onSubmit={handleSubmit}>
+        <TextField
+          label="Enter your todo"
+          variant="outlined"
+          className="inputBox"
+          error={valueError.status}
+          helperText={valueError.helperText}
+          value={value}
+          onChange={(event) => setValue(event.target.value)}
+        />
+        <Button
+          variant="contained"
+          color="primary"
+          className="submitBtn"
+          type="submit"
+        >
+          Add
+        </Button>
       </form>
-      {todo.length > 0 ? (
-        <TableContainer component={Paper} className='table'>
-          <Table aria-label='simple table'>
-            <TableHead>
-              <TableRow>
-                <TableCell>S.n.</TableCell>
-                <TableCell>Work</TableCell>
-                <TableCell>Options</TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {todo.map((each, index) => (
-                <TableRow key={index}>
-                  <TableCell>{index}</TableCell>
-                  <TableCell>{each}</TableCell>
-                  <TableCell>
-                    <Button
-                      variant='contained'
-                      onClick={() => handleDelete(index)}
-                      color='secondary'>
-                      Delete
-                    </Button>
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
-      ) : (
-        <p className='no_todo'>Add Your Todo First</p>
-      )}
+
+      <TodoTable
+        data={todo}
+        onMarkAsCompleted={markAsCompleted}
+        onRemove={deleteTodo}
+      />
     </div>
   );
 }
